@@ -1,0 +1,45 @@
+:root{
+    --primary: #fefae0;
+    --secondary: #ffc8dd;
+    --darker: #ffafcc;
+}
+
+body{
+    background-color: var(--primary);
+}
+
+.btn:hover{
+    box-shadow: var(--darker);
+}
+
+.avatar{
+    width: 40%;
+    height: 40%;
+    border-radius: 100%;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: var(--secondary);
+    margin-top: 50px;
+  }
+
+footer, a{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #da0956;
+}
+
+.btn:hover{
+    box-shadow: 12px 12px 2px 1px rgba(156, 41, 166, 0.417) !important;
+}

@@ -16,7 +16,7 @@
     />
 
     <!-- CSS Style Sheet-->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -52,12 +52,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#about"
-                >About Me <span class="sr-only">(current)</span></a
+              <a class="nav-link" href="#projects"
+                >Projects <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact Me</a>
@@ -67,102 +70,95 @@
       </nav>
     </header>
 
-    <!-- hero -->
-    <section class="hero">
-      <div>
-        <!-- bold -->
-        <h1>Front End Web Developer</h1>
-      </div>
-    </section>
-
     <main class="page-wrapper">
-      <!-- about me -->
-      <div class="jumbotron jumbotron-fluid" id="#about">
+
+       <!-- hero -->
+      <div class="jumbotron jumbotron-fluid" id="#home">
         <div class="container">
-          <h1 class="display-4">About Me</h1>
+          <img
+          src="./images/Avatar.png"
+          class=" row-3 avatar">
+          <h1 class="display-4 row-3">Hello, I'm Ana Wada<h1>
+          </p class="row-3">FrontEnd Web Developer</p>
           <p class="lead"></p>
         </div>
       </div>
 
       <!-- portfolio container -->
-
+    <div class="container">
       <h2>Projects</h2>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4" id="projects">
         <div class="col mb-4">
           <div class="card">
             <img
-              src="https://placehold.co/50"
+              src="./images/02-portfolio-2.jpg"
               class="card-img-top"
-              alt="..."
+              alt="random"
             />
             <div class="card-body">
               <h5 class="card-title">Project 1</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                HTML CSS
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Try it!</a>
             </div>
           </div>
         </div>
         <div class="col mb-4">
           <div class="card">
             <img
-              src="https://placehold.co/50"
+              src="./images/02-portfolio-3.jpg"
               class="card-img-top"
               alt="..."
             />
             <div class="card-body">
               <h5 class="card-title">Project 2</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                JavaScript
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Play it!</a>
             </div>
           </div>
         </div>
         <div class="col mb-4">
           <div class="card">
             <img
-              src="https://placehold.co/50"
+              src="./images/02-portfolio-3.jpg"
               class="card-img-top"
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Project 3</h5>
+              <h5 class="card-title">Look around!</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
+                JavaScript
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Go!</a>
             </div>
           </div>
         </div>
         <div class="col mb-4">
           <div class="card">
             <img
-              src="https://placehold.co/50"
+              src="./images/02-portfolio-4.jpg"
               class="card-img-top"
               alt="..."
             />
             <div class="card-body">
               <h5 class="card-title">Project 4</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                React
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Have fun!</a>
             </div>
           </div>
         </div>
       </div>
+
+      <hr>
+
       <!--Skills-->
 
-      <section class="skills">
+      <section class="skills" id="skills">
         <h2>Skills</h2>
         <i class="fa-brands fa-html5"></i>
         <i class="fa-brands fa-css3-alt"></i>
@@ -171,19 +167,22 @@
         <i class="fa-brands fa-react"></i>
       </section>
 
-      <!-- About me/ contact -->
-      <section class="row-col-3" id="about">
-        <h2>About Me</h2>
-        <p>
-          Now that you already know my name, let's keep going... I have a degree
-          in librarianship with qualifications in information management from
-          the State University of Santa Catarina - UDESC, Brazil. I am fluent in
-          English and Portuguese, and I have European citizenship and the right
-          to work in the UK. I'm currently studying FrontEnd Web Development and
-          looking for opportunities in the field. I am attending the Skills Boot
-          Camp in Front-End Web Development edX with completion in March 2023.
-        </p>
-      </section>
+      <hr>
+       <!-- About me-->
+     <section class="row-col-3" id="about">
+      <h2>About Me</h2>
+      <p>
+        Now that you already know my name, let's keep going... I have a degree
+        in librarianship with qualifications in information management from
+        the State University of Santa Catarina - UDESC, Brazil. I am fluent in
+        English and Portuguese, and I have European citizenship and the right
+        to work in the UK. I'm currently studying FrontEnd Web Development and
+        looking for opportunities in the field. I am attending the Skills Boot
+        Camp in Front-End Web Development edX with completion in March 2023.
+      </p>
+    </section>
+    <hr>
+      <!--Contact me-->
       <section class="row-col-3" id="contact">
         <h2>Contact Me</h2>
         <p>
@@ -192,15 +191,15 @@
           medias. For jobs or if you have any feedback or suggestions, please
           contact me.
         </p>
-
+    </div>
         <footer>
-          <a class="email" href="anamitsuko@hotmail.com"
+          <a class="email" href="anamitsuko@hotmail.com" target="_blank"
             ><i class="fa-solid fa-envelope fa-2xl"></i
           ></a>
           <a class="github" href="https://github.com/anawada>" target="_blank"
             ><i class="fa-brands fa-square-github fa-2xl"></i
           ></a>
-          <a class="linkedin" href="https://www.linkedin.com/in/anacmwada/"
+          <a class="linkedin" href="https://www.linkedin.com/in/anacmwada/" target="_blank"
             ><i class="fa-brands fa-linkedin fa-2xl"></i
           ></a>
         </footer>
