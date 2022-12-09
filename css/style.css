@@ -8,6 +8,10 @@ body{
     background-color: var(--primary);
 }
 
+.navbar{
+    background-color: var(--secondary) !important;
+}
+
 .btn:hover{
     box-shadow: var(--darker);
 }
