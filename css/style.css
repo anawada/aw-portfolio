@@ -13,7 +13,7 @@ body{
 }
 
 .nav-link:hover{
-    color: rgb(68, 68, 215) !important;
+    color: rgba(41, 89, 166, 0.685) !important;
 }
 
 .btn:hover{
