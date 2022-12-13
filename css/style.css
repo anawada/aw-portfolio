@@ -1,15 +1,22 @@
 :root{
     --primary: #fefae0;
-    --secondary: #ffc8dd;
+    --secondary: #ef97cabb;
     --darker: #ffafcc;
 }
 
 body{
-    background-color: var(--primary);
+    background-image: url(/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .navbar{
     background-color: var(--secondary) !important;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
 }
 
 .nav-link:hover{
@@ -21,10 +28,14 @@ body{
 }
 
 .jumbotron{
-    background-color: #ade0f6;
+    background-color: rgba(0, 89, 255, 0.392);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 
