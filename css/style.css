@@ -29,9 +29,6 @@ body{
 
 .jumbotron{
     background-color: rgba(0, 89, 255, 0.392);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
