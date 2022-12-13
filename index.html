@@ -27,17 +27,23 @@
     />
 
     <!-- Fontawesome-->
+
     <script
       src="https://kit.fontawesome.com/06cf35e629.js"
       crossorigin="anonymous"
     ></script>
+    
   </head>
 
   <body>
     <!-- main logo / nav -->
+
     <header>
-      <nav class="navbar navbar-custom navbar-expand-lg navbar-light bg-light">
-        <h1 class="navbar-brand">Hello, I'm Ana</h1>
+     <!-- Just an image -->
+      <nav class="navbar navbar-nav navbar-expand-lg navbar-light bg-light">
+        <div class="navbar-brand">
+       <img src="./images/logo.png" width="30" height="30" alt="logo">
+        </div>
         <button
           class="navbar-toggler"
           type="button"
@@ -47,7 +53,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
@@ -56,13 +62,13 @@
                 >Projects <span class="sr-only">(current)</span></a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#skills">Skills</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#about">About Me</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#contact">Contact Me</a>
             </li>
           </ul>
@@ -71,23 +77,29 @@
     </header>
 
     <main class="page-wrapper">
-
+    
        <!-- hero -->
-      <div class="jumbotron jumbotron-fluid" id="#home">
-        <div class="container">
-          <img
-          src="./images/Avatar.png"
-          class=" row-3 avatar">
-          <h1 class="display-4 row-3">Hello, I'm Ana Wada<h1>
-          </p class="row-3">FrontEnd Web Developer</p>
-          <p class="lead"></p>
+      <div class="jumbotron jumbotron-custom jumbotron-fluid">
+        <div class="container" id="top">
+          <div class="row">
+             <div class="col-lg-3 col-md-4 col-sm-12">
+              <div class="avatar">
+               <img
+                src="./images/Avatar.png"/>
+              </div>
+              </div>
+             <div class="text col-lg-4 col-md-6 col-sm-12">
+             <h1>Hello, I'm Ana Wada</h1>
+             <p class="lead">FrontEnd Web Developer</p>
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- portfolio container -->
     <div class="container">
-      <h2>Projects</h2>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4" id="projects">
+      <h2 id="projects">Projects</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
         <div class="col mb-4">
           <div class="card">
             <img
@@ -169,7 +181,7 @@
 
       <hr>
        <!-- About me-->
-     <section class="row-col-3" id="about">
+     <section id="about">
       <h2>About Me</h2>
       <p>
         Now that you already know my name, let's keep going... I have a degree
@@ -183,7 +195,7 @@
     </section>
     <hr>
       <!--Contact me-->
-      <section class="row-col-3" id="contact">
+      <section  id="contact">
         <h2>Contact Me</h2>
         <p>
           Thank you for taking the time to have a look at my website, I
@@ -193,10 +205,10 @@
         </p>
     </div>
         <footer>
-          <a class="email" href="anamitsuko@hotmail.com" target="_blank"
+          <a class="email" href="mailto:anamitsuko@hotmail.com" target="_blank"
             ><i class="fa-solid fa-envelope fa-2xl"></i
           ></a>
-          <a class="github" href="https://github.com/anawada>" target="_blank"
+          <a class="github" href="https://github.com/anawada?tab=repositories" target="_blank"
             ><i class="fa-brands fa-square-github fa-2xl"></i
           ></a>
           <a class="linkedin" href="https://www.linkedin.com/in/anacmwada/" target="_blank"
