@@ -1,6 +1,6 @@
 :root{
     --primary: #fefae0;
-    --secondary: #ef97cabb;
+    --secondary: #ef97cab4;
     --darker: #ffafcc;
 }
 
@@ -10,31 +10,40 @@ body{
     background-size: cover;
 }
 
+/*Navigation bar */
+
 .navbar{
     background-color: var(--secondary) !important;
 }
 
-.logo{
-    width: 10%;
-    height: 10%;
-}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+
+  .nav-item {
+    margin: 0px 15px;
+  }
+
 
 .nav-link:hover{
-    color: rgba(41, 89, 166, 0.685) !important;
+    color: rgba(41, 89, 166, 0.623) !important;
 }
 
-.btn:hover{
-    box-shadow: var(--darker);
-}
+/* Jumbotron */
 
 .jumbotron{
     background-color: rgba(0, 89, 255, 0.392);
+    height: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
-
 
 .avatar img {
     width: 60%;
@@ -42,11 +51,14 @@ body{
     border-radius: 100%;
 }
 
-#home{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+/* cards */
+
+.btn:hover{
+    box-shadow: 4px 4px 2px 1px rgba(41, 89, 166, 0.685) !important;
 }
+
+/* footer */
+
 
 footer {
     display: flex;
@@ -64,6 +76,3 @@ footer, a{
     color: #da0956;
 }
 
-.btn:hover{
-    box-shadow: 4px 4px 2px 1px rgba(41, 89, 166, 0.685) !important;
-}
